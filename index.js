@@ -48,3 +48,27 @@ students **= 2;
 // let extrastudents = students % 3;
 // students %= 2;
 console.log(`The number of students is ${students}`)
+
+
+// Inputs:
+// let username;
+// username = window.prompt(`What is your username?`)
+// console.log(username)
+
+let username;
+document.getElementById(`mySubmit`).onclick = function(){
+    username = document.getElementById(`myText`).value;
+    document.getElementById(`myH2`).textContent = `Hello ${username}`;
+}
+
+
+// Converting Inputs:
+let x;
+let y;
+let z;
+x = Number(x);
+y = String(y);
+z = Boolean(z);
+console.log(x, typeof x);
+console.log(y, typeof y);
+console.log(z, typeof z);

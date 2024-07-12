@@ -84,3 +84,25 @@ document.getElementById(`submitRadius`).onclick = function(){
     circumference = 2 * PI * radius;
     document.getElementById(`circumferencevalue`).textContent = circumference + `cm`;
 }
+
+
+
+// Math:
+let a = 3;
+let b = 2;
+let c = 1;
+// z = Math.round(a);
+// z = Math.floor(a);
+// z = Math.ceil(a);
+// z = Math.trunc(a);
+// z = Math.pow(a , b);
+// z = Math.sqrt(a);
+// z = Math.log(a);
+// z = Math.sin(a);
+// z = Math.cos(a);
+// z = Math.abs(a);
+// z = Math.sign(a);
+let max = Math.max(a,b,c);
+let min = Math.min(a,b,c);
+console.log(min);
+console.log(max);

@@ -72,3 +72,15 @@ z = Boolean(z);
 console.log(x, typeof x);
 console.log(y, typeof y);
 console.log(z, typeof z);
+
+
+// Constant:
+const PI = 3.14159;
+let radius;
+let circumference;
+document.getElementById(`submitRadius`).onclick = function(){
+    radius = document.getElementById(`valueofRadius`).value;
+    radius = Number(radius);
+    circumference = 2 * PI * radius;
+    document.getElementById(`circumferencevalue`).textContent = circumference + `cm`;
+}
